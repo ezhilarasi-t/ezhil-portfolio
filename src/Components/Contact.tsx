@@ -1,4 +1,4 @@
-import { Mail, MessageSquareMore, Minus } from "lucide-react";
+import { Minus } from "lucide-react";
 
 const Contact = () =>{
     return (

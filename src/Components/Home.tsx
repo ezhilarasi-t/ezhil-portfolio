@@ -1,6 +1,6 @@
 'use-client'
 
-import { Github, Instagram, Linkedin, MailIcon } from "lucide-react";
+import { Github, Instagram, Linkedin } from "lucide-react";
 
 const HomePage = () => {
   
@@ -10,11 +10,11 @@ const HomePage = () => {
         <div className="flex flex-col gap-4 pt-8 pb-4">
         <h2 className="text-xl sm:text-3xl text-gray-300 font-light">Hello,</h2>
         <h1 className="text-4xl sm:text-7xl font-extrabold text-white tracking-wide">
-          I'm <span className="text-yellow-400 hover:text-blue-400">Ezhilarasi T</span>
-        </h1>
-        <h2 className="text-xl sm:text-4xl font-medium text-gray-400">
-          And I'm a <span className="text-green-400">Front-end Developer</span>
-        </h2>
+        I&apos;m <span className="text-yellow-400 hover:text-blue-400">Ezhilarasi T</span>
+      </h1>
+      <h2 className="text-xl sm:text-4xl font-medium text-gray-400">
+        And I&apos;m a <span className="text-green-400">Front-end Developer</span>
+      </h2>
         </div>
         <div className="flex flex-row gap-6 pb-6">
             <a href="www.linkedin.com/in/ezhilarasi-t" target="_blank" >

@@ -1,13 +1,7 @@
-"use client"
 
-import { Code, Folder, HomeIcon, Mail, Map, User } from "lucide-react";
+import { Code, Folder, HomeIcon, Mail, User } from "lucide-react";
 
 const NavBar = () => {
-  // const showThePage = (pageName) =>{
-  //   if(pageName == "home"){
-  //     return "/"
-  //   }
-  // }
   return (
     <div className="flex p-3  bg-transparent border-blue-500 shadow-[0_0_10px_2px_rgba(59,130,246,0.7)] rounded-4xl text-sm lg:text-base fixed">
       <div className="gap-7 flex flex-row items-center">
@@ -20,9 +14,6 @@ const NavBar = () => {
         <a href="#skills" className="px-1 hover:scale-95 transition-transform duration-100">
           <Code className="w-7 h-7  text-green-500 hover:text-green-700" />
         </a>
-        {/* <a href="#journey" className="px-1 hover:scale-95 transition-transform duration-100">
-          <Map className="w-7 h-7  text-yellow-500 hover:text-yellow-700" />
-        </a> */}
         <a href="#projects" className="px-1 hover:scale-95 transition-transform duration-100">
           <Folder className="w-7 h-7  text-purple-500 hover:text-purple-700" />
         </a>
